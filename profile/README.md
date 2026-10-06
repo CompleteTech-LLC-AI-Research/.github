@@ -37,7 +37,6 @@
 
 - [`jev-context-fabric`](https://github.com/CompleteTech-LLC-AI-Research/jev-context-fabric): local-first, source-backed memory layer for coding agents.
 - [`jev-sentinel`](https://github.com/CompleteTech-LLC-AI-Research/jev-sentinel): multi-harness installer and security evaluator, a reference implementation.
-- [`systemone-compiler`](https://github.com/CompleteTech-LLC-AI-Research/systemone-compiler): declare a decision, compile typed Jev questions, measure them, ship a JSON program.
 - [`beyond-the-token-bottleneck`](https://github.com/CompleteTech-LLC-AI-Research/beyond-the-token-bottleneck): an Obsidian research wiki on latent-space reasoning and inter-agent communication.
 
 ## Public repositories
@@ -48,7 +47,6 @@
 |  | [`jev-prune-kit`](https://github.com/CompleteTech-LLC-AI-Research/jev-prune-kit) | Capability-aware context-pruning installer and Jev assessment engine for coding agents; experimental, not live-host tested |
 |  | [`jev-sentinel`](https://github.com/CompleteTech-LLC-AI-Research/jev-sentinel) | Multi-harness installer and security evaluator that keeps agent authorization with the host; reference implementation |
 |  | [`jev-codex-approval`](https://github.com/CompleteTech-LLC-AI-Research/jev-codex-approval) | Experimental typed JEV approval preflight for Codex with deterministic policy gates and Guardian fallback |
-|  | [`systemone-compiler`](https://github.com/CompleteTech-LLC-AI-Research/systemone-compiler) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program. |
 | **Codex tooling** | [`codex-plaintext-collab`](https://github.com/CompleteTech-LLC-AI-Research/codex-plaintext-collab) | Patch for OpenAI Codex CLI that disables encryption of inter-agent (subagent) messages, with build and update-safe install tooling |
 | **Games and agents** | [`pokemon-harness`](https://github.com/CompleteTech-LLC-AI-Research/pokemon-harness) | Memory-first automation harness for Pokemon Red, Blue and Yellow with a typed Session API and MCP server |
 |  | [`ai-self-replication-study`](https://github.com/CompleteTech-LLC-AI-Research/ai-self-replication-study) | Modular AI agent system combining language models with shell command execution and file manipulation |
