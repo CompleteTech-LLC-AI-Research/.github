@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://complete.tech">complete.tech</a> ·
-  <a href="https://x.com/CompleteTechLLC">@CompleteTechLLC on X</a> ·
+  <a href="https://complete.tech">complete.tech</a> Â·
+  <a href="https://x.com/CompleteTechLLC">@CompleteTechLLC on X</a> Â·
   <a href="https://github.com/orgs/CompleteTech-LLC-AI-Research/repositories">All repositories</a>
 </p>
 
@@ -36,7 +36,7 @@
 ## Where to start
 
 - [`jev-context-fabric`](https://github.com/CompleteTech-LLC-AI-Research/jev-context-fabric): local-first, source-backed memory layer for coding agents.
-- [`JEV-Paper-Radar`](https://github.com/CompleteTech-LLC-AI-Research/JEV-Paper-Radar): reads new arXiv papers each morning and surfaces the few worth reading.
+- [`jev-sentinel`](https://github.com/CompleteTech-LLC-AI-Research/jev-sentinel): multi-harness installer and security evaluator, a reference implementation.
 - [`systemone-compiler`](https://github.com/CompleteTech-LLC-AI-Research/systemone-compiler): declare a decision, compile typed Jev questions, measure them, ship a JSON program.
 - [`beyond-the-token-bottleneck`](https://github.com/CompleteTech-LLC-AI-Research/beyond-the-token-bottleneck): an Obsidian research wiki on latent-space reasoning and inter-agent communication.
 
@@ -44,24 +44,37 @@
 
 | Area | Repository | What it is |
 | --- | --- | --- |
-| **Jev agent tooling** | [`jev-context-fabric`](https://github.com/CompleteTech-LLC-AI-Research/jev-context-fabric) | Local-first, source-backed memory layer for coding agents, with a zero-dependency installer for eight harnesses. |
-|  | [`jev-prune-kit`](https://github.com/CompleteTech-LLC-AI-Research/jev-prune-kit) | Capability-aware context-pruning installer and bounded Jev assessment engine (experimental, not live-host tested). |
-|  | [`jev-sentinel`](https://github.com/CompleteTech-LLC-AI-Research/jev-sentinel) | Multi-harness reference implementation of JEV Sentinel. |
-|  | [`jev-codex-approval`](https://github.com/CompleteTech-LLC-AI-Research/jev-codex-approval) | Experimental typed JEV approval preflight for Codex with deterministic policy gates and Guardian fallback. |
-|  | [`systemone-compiler`](https://github.com/CompleteTech-LLC-AI-Research/systemone-compiler) | Declare a decision, compile typed Jev questions, measure them, ship a JSON program. |
-| **Codex tooling** | [`codex-plaintext-collab`](https://github.com/CompleteTech-LLC-AI-Research/codex-plaintext-collab) | Patch for OpenAI Codex CLI that disables encryption of inter-agent (subagent) messages, with build and update-safe install tooling. |
-| **Games and agents** | [`pokemon-harness`](https://github.com/CompleteTech-LLC-AI-Research/pokemon-harness) | Memory-first automation harness for Pokemon Red, Blue and Yellow with a typed Session API and MCP server. |
-|  | [`ai-self-replication-study`](https://github.com/CompleteTech-LLC-AI-Research/ai-self-replication-study) | Modular AI agent system combining language models with shell command execution and file manipulation. |
-| **Data and visualization** | [`jev-311-heatmap`](https://github.com/CompleteTech-LLC-AI-Research/jev-311-heatmap) | NYC 311 complaint heatmaps with TypeSafe JEV: reproducible pipeline and interactive geographic visualizations. |
-|  | [`england-crime-atlas`](https://github.com/CompleteTech-LLC-AI-Research/england-crime-atlas) | Interactive England crime map with regional conviction demographics and offence codes from official open data. |
-|  | [`gemma4good`](https://github.com/CompleteTech-LLC-AI-Research/gemma4good) | Clean Drop: edge-AI water reporting and triage with Gemma 4. |
-| **Research and papers** | [`beyond-the-token-bottleneck`](https://github.com/CompleteTech-LLC-AI-Research/beyond-the-token-bottleneck) | Obsidian research wiki on latent-space reasoning and inter-agent communication. |
-|  | [`JEV-Paper-Radar`](https://github.com/CompleteTech-LLC-AI-Research/JEV-Paper-Radar) | Reads new arXiv papers each morning and surfaces the few worth reading. |
-|  | [`computervision`](https://github.com/CompleteTech-LLC-AI-Research/computervision) | Computer vision library for Lean. |
-| **Integrations** | [`openclaw-mautic-plugin`](https://github.com/CompleteTech-LLC-AI-Research/openclaw-mautic-plugin) | OpenClaw plugin for controlled Mautic CRM operations: typed API tools, webhooks and guarded maintenance. |
+| **Jev agent tooling** | [`jev-context-fabric`](https://github.com/CompleteTech-LLC-AI-Research/jev-context-fabric) | Local-first, source-backed memory layer for coding agents with an installer for eight harnesses and reversible /prune |
+|  | [`jev-prune-kit`](https://github.com/CompleteTech-LLC-AI-Research/jev-prune-kit) | Capability-aware context-pruning installer and Jev assessment engine for coding agents; experimental, not live-host tested |
+|  | [`jev-sentinel`](https://github.com/CompleteTech-LLC-AI-Research/jev-sentinel) | Multi-harness installer and security evaluator that keeps agent authorization with the host; reference implementation |
+|  | [`jev-codex-approval`](https://github.com/CompleteTech-LLC-AI-Research/jev-codex-approval) | Experimental typed JEV approval preflight for Codex with deterministic policy gates and Guardian fallback |
+|  | [`systemone-compiler`](https://github.com/CompleteTech-LLC-AI-Research/systemone-compiler) | Declare a decision, compile typed Jev questions, measure them, and ship a JSON program. |
+| **Codex tooling** | [`codex-plaintext-collab`](https://github.com/CompleteTech-LLC-AI-Research/codex-plaintext-collab) | Patch for OpenAI Codex CLI that disables encryption of inter-agent (subagent) messages, with build and update-safe install tooling |
+| **Games and agents** | [`pokemon-harness`](https://github.com/CompleteTech-LLC-AI-Research/pokemon-harness) | Memory-first automation harness for Pokemon Red, Blue and Yellow with a typed Session API and MCP server |
+|  | [`ai-self-replication-study`](https://github.com/CompleteTech-LLC-AI-Research/ai-self-replication-study) | Modular AI agent system combining language models with shell command execution and file manipulation |
+| **Data and visualization** | [`jev-311-heatmap`](https://github.com/CompleteTech-LLC-AI-Research/jev-311-heatmap) | NYC 311 complaint heatmaps built with Jev: reproducible pipeline and interactive geographic visualizations |
+|  | [`england-crime-atlas`](https://github.com/CompleteTech-LLC-AI-Research/england-crime-atlas) | Interactive England crime map with regional conviction demographics and detailed offence codes from official open data |
+|  | [`gemma4good`](https://github.com/CompleteTech-LLC-AI-Research/gemma4good) | Clean Drop: edge-AI water reporting and triage built on Gemma 4 for mapping water stress |
+| **Research and papers** | [`beyond-the-token-bottleneck`](https://github.com/CompleteTech-LLC-AI-Research/beyond-the-token-bottleneck) | Obsidian research wiki on latent-space reasoning and inter-agent communication beyond the discrete token bottleneck |
+| **Integrations and notes** | [`openclaw-mautic-plugin`](https://github.com/CompleteTech-LLC-AI-Research/openclaw-mautic-plugin) | OpenClaw plugin for controlled Mautic CRM operations: typed API tools, webhooks and guarded maintenance |
+|  | [`clawexplorer.ai-changelog`](https://github.com/CompleteTech-LLC-AI-Research/clawexplorer.ai-changelog) | Public summary-only release notes and feed links for the ClawExplorer.ai events directory |
+| **Organization** | [`.github`](https://github.com/CompleteTech-LLC-AI-Research/.github) | Organization profile and community health files for CompleteTech-LLC-AI-Research. |
 
-The organization also holds forks of upstream projects (such as llama.cpp and
-a Codex fork); those belong to their original authors.
+## Forks we follow
+
+These are forks of other authors' projects. The work belongs to the upstream
+authors; the forks are kept for our own reference and experiments.
+
+- [`JEV-Paper-Radar`](https://github.com/CompleteTech-LLC-AI-Research/JEV-Paper-Radar): fork of [Eliot5566/JEV-Paper-Radar](https://github.com/Eliot5566/JEV-Paper-Radar), which reads new arXiv papers each morning with Jev.
+- [`codex-jev`](https://github.com/CompleteTech-LLC-AI-Research/codex-jev): fork of [openai/codex](https://github.com/openai/codex).
+- [`computervision`](https://github.com/CompleteTech-LLC-AI-Research/computervision): fork of [vukimlien4706-cpu/computervision](https://github.com/vukimlien4706-cpu/computervision), a computer vision library for Lean.
+- [`factorio-learning-environment`](https://github.com/CompleteTech-LLC-AI-Research/factorio-learning-environment): fork of [JackHopkins/factorio-learning-environment](https://github.com/JackHopkins/factorio-learning-environment).
+- [`G0DM0D3`](https://github.com/CompleteTech-LLC-AI-Research/G0DM0D3): fork of [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3).
+- [`llama.cpp`](https://github.com/CompleteTech-LLC-AI-Research/llama.cpp): fork of [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp).
+
+## Archived
+
+- [`ml_breakout`](https://github.com/CompleteTech-LLC-AI-Research/ml_breakout): archived and read-only.
 
 ## Honest limits
 
@@ -72,6 +85,6 @@ README is the authority on its own status; this page makes no claims beyond them
 
 ## Get involved
 
-[Contributing](https://github.com/CompleteTech-LLC-AI-Research/.github/blob/main/CONTRIBUTING.md) ·
-[Support](https://github.com/CompleteTech-LLC-AI-Research/.github/blob/main/SUPPORT.md) ·
+[Contributing](https://github.com/CompleteTech-LLC-AI-Research/.github/blob/main/CONTRIBUTING.md) Â·
+[Support](https://github.com/CompleteTech-LLC-AI-Research/.github/blob/main/SUPPORT.md) Â·
 [Security](https://github.com/CompleteTech-LLC-AI-Research/.github/blob/main/SECURITY.md)
